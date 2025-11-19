@@ -8,6 +8,7 @@
     "build": "tsup",
     "build:watch": "tsup --watch",
     "pretest": "npm run build",
+    "prepare": "npm run build",
     "test": "mocha",
     "prepublishOnly": "npm run build"
   },
